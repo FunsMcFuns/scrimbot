@@ -103,7 +103,7 @@ class Listing {
 
                                 let deletedID = this.data.shift();
                                 console.log(`deleted id : ${deletedID}`);
-                                this.deletedUser(username);
+                                this.deleteUser(username);
                                 return;
                             }                               
                             }
